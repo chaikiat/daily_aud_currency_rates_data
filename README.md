@@ -1,4 +1,5 @@
-# daily_aud_currency_rates_data
+# Australian Currency Exchange Rates Data Engineering Pipeline on AWS
+
 
 
 ## 1) Architectural Diagram of Pipeline
