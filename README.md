@@ -8,7 +8,7 @@ This is a data pipeline built in Amazon Web Services (AWS) that fetches the dail
 <br>[4) Data source](#4-data-source)<br>
 <br>[5) Implementation steps](#5-implementation-steps)<br>
 <br>[6) Grafana dashboard](#6-grafana-dashboard)<br>
-<br>[7) Grafana - dashboard snapshots)](#7-grafana-dashboard-snapshots)<br>
+<br>[7) Grafana - dashboard snapshots](#7-grafana-dashboard-snapshots)<br>
 <br>[8) Additional opportunities](#8-additional-opportunities)<br>
 <br>[9) Documentation](#9-documentation)<br>
 
@@ -70,7 +70,7 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
 ## [6) Grafana dashboard](#6-grafana-dashboard)
 <img width="1458" alt="grafana_dashboard_aud_daily_conversion" src="https://github.com/user-attachments/assets/f32bbf4e-568c-44af-8bd2-7651c6bee3bf">
 
-## 7) [Grafana - dashboard snapshots](#7-grafana-dashboard-snapshots)
+## [7) Grafana - dashboard snapshots](#7-grafana-dashboard-snapshots)
   7.1 [Snapshot 1](https://ckkho.grafana.net/dashboard/snapshot/I4w7BspDGLuMKis7j8lvs237yKntieAv)<br>
   7.2 [Snapshot 2](https://ckkho.grafana.net/dashboard/snapshot/GgKE7R1bV7N6uBQVvxnc6eDGOci2WTtZ)<br>
   7.3 [Snapshot 3](https://ckkho.grafana.net/dashboard/snapshot/7HJkEh23Q0vXpgehsCodx8dO5A2uOuwz)<br>
