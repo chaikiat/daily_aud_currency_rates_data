@@ -2,19 +2,18 @@
 This is a data pipeline built in Amazon Web Services (AWS) that fetches the daily Australian currency exchange rates from a currency exchange API, transforms the data into a format that is finally visualized onto a Grafana dashboard. 
 
 ## Content
-<br>[1) Objective](#1-objective)<br>
-<br>[2) Technology used](#2-technology-used)<br>
-<br>[3) Architectural diagram of pipeline](#3-architectural-diagram-of-pipeline)<br>
-<br>[4) Data source](#4-data-source)<br>
-<br>[5) Implementation steps](#5-implementation-steps)<br>
-<br>[6) Grafana dashboard](#6-grafana-dashboard)<br>
+<br>[1) Objective](#1-objective)
+<br>[2) Technology used](#2-technology-used)
+<br>[3) Architectural diagram of pipeline](#3-architectural-diagram-of-pipeline)
+<br>[4) Data source](#4-data-source)
+<br>[5) Implementation steps](#5-implementation-steps)
+<br>[6) Grafana dashboard](#6-grafana-dashboard)
 <br>[7) Grafana - dashboard snapshots](#7-grafana-dashboard-snapshots)<br>
-<br>[8) Additional opportunities](#8-additional-opportunities)<br>
-<br>[9) Documentation](#9-documentation)<br>
-
+<br>[8) Additional opportunities](#8-additional-opportunities)
+<br>[9) Documentation](#9-documentation)
 
 ## [1) Objective](#1-objective)
-Instead of checking exchange rates online, this pipeline enables the fully automated flow of Australian currency exchange data into a dashboard that enables easier monitoring, alerting of currency fluctuations to better inform decisions over when to execute foreign exchange transactions.   
+Instead of checking exchange rates online, this pipeline enables the fully automated flow of Australian currency exchange data into a dashboard that enables easier monitoring, alerting of currency fluctuations to better inform decisions over when to execute foreign exchange transactions. 
 
 ## [2) Technology Used](#2-technology-used)
       a. For scripting: Python and SQL
@@ -84,3 +83,5 @@ This pipeline can be extended to more base currencies and longer lookback in his
       a. Free currency api: https://freecurrencyapi.com/docs
       b. AWS Glue workflows: https://docs.aws.amazon.com/glue/latest/dg/workflows_overview.html
       c. Grafana dashboard: https://grafana.com/docs/grafana/latest/dashboards/
+
+***
