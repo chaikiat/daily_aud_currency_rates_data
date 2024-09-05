@@ -2,14 +2,21 @@
 This is a data pipeline built in Amazon Web Services (AWS) that fetches the daily Australian currency exchange rates from a currency exchange API, transforms the data into a format that is finally visualized onto a Grafana dashboard. 
 
 ## Content
-<br>####[8) Additional opportunities](#8-additional-opportunities)<br>
-<br>####[9) Documentation](#9-documentation)<br>
+<br>[1) Objective](#1-objective)<br>
+<br>[2) Technology used](#2-technology-used)<br>
+<br>[3) Architectural diagram of pipeline](#3-architectural-diagram-of-pipeline)<br>
+<br>[4) Data source](#4-data-source)<br>
+<br>[5) Implementation steps](#5-implementation-steps)<br>
+<br>[6) Grafana dashboard](#6-grafana-dashboard)<br>
+<br>[7) Grafana - dashboard snapshots)](#7-grafana-dashboard-snapshots)<br>
+<br>[8) Additional opportunities](#8-additional-opportunities)<br>
+<br>[9) Documentation](#9-documentation)<br>
 
 
-## 1) Objective
+## [1) Objective](#1-objective)
 Instead of checking exchange rates online, this pipeline enables the fully automated flow of Australian currency exchange data into a dashboard that enables easier monitoring, alerting of currency fluctuations to better inform decisions over when to execute foreign exchange transactions.   
 
-## 2) Technology Used
+## [2) Technology Used](#2-technology-used)
       a. For scripting: Python and SQL
       b. For data ingestion: AWS Lambda, Amazon Data Firehose
       c. For orchestration, data transformation: AWS Glue
@@ -17,14 +24,14 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
       e. For data queries: Amazon Athena
       f. For data visualisation: Grafana
 
-## 3) Architectural Diagram of Pipeline
+## [3) Architectural Diagram of Pipeline](#3-architectural-diagram-of-pipeline)
 ![de_project_currency_ck drawio](https://github.com/user-attachments/assets/57dc3050-4dba-4602-8257-4bd356cf68f4)
 
-## 4) Data Source
+## [4) Data Source](#4-data-source)
       a. Data provider: https://freecurrencyapi.com
       b. Authentication to the API is via an API key, which can be generated when you sign up for free
 
-## 5) Implementation Steps
+## [5) Implementation Steps](#5-implementation-steps)
       1. In AWS, go to Lambda and create a Python function - Python runtime, x86_64 architecture
       2. In the Lambda code source, use this file in the repository as the source code - [src/lambda/free_currency_api_extract_latest.py]
       3. Create a free account on https://freecurrencyapi.com, and generate an API key
@@ -60,10 +67,10 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
       22. In Grafana , write a SQL query or use the SQL file in the repository query data from Athena in a way that Grafana can visualize on a dashboard - [src/sql/grafana_currency_query]
       23. Create your customised visualisations to build your dashboard
 
-## 6) Grafana dashboard
+## [6) Grafana dashboard](#6-grafana-dashboard)
 <img width="1458" alt="grafana_dashboard_aud_daily_conversion" src="https://github.com/user-attachments/assets/f32bbf4e-568c-44af-8bd2-7651c6bee3bf">
 
-## 7) Grafana - dashboard snapshots
+## 7) [Grafana - dashboard snapshots](#7-grafana-dashboard-snapshots)
   7.1 [Snapshot 1](https://ckkho.grafana.net/dashboard/snapshot/I4w7BspDGLuMKis7j8lvs237yKntieAv)<br>
   7.2 [Snapshot 2](https://ckkho.grafana.net/dashboard/snapshot/GgKE7R1bV7N6uBQVvxnc6eDGOci2WTtZ)<br>
   7.3 [Snapshot 3](https://ckkho.grafana.net/dashboard/snapshot/7HJkEh23Q0vXpgehsCodx8dO5A2uOuwz)<br>
