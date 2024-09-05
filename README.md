@@ -4,7 +4,7 @@ This is a data pipeline built in Amazon Web Services (AWS) that fetches the dail
 ## Content
 # [Objective](#objective)
 
-## 1) Objective
+## 1) Objectivea
 Instead of checking exchange rates online, this pipeline enables the fully automated flow of Australian currency exchange data into a dashboard that enables easier monitoring, alerting of currency fluctuations to better inform decisions over when to execute foreign exchange transactions.   
 
 ## 2) Technology Used
