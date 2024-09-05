@@ -2,7 +2,7 @@
 This is a data pipeline built in Amazon Web Services (AWS) that fetches the daily Australian currency exchange rates from a currency exchange API, transforms the data into a format that is finally visualized onto a Grafana dashboard. 
 
 ## Content
-# [Objective](#salah)
+### [9) Additional opportunities](#additional-opportunities)
 
 ## 1) Objective
 Instead of checking exchange rates online, this pipeline enables the fully automated flow of Australian currency exchange data into a dashboard that enables easier monitoring, alerting of currency fluctuations to better inform decisions over when to execute foreign exchange transactions.   
@@ -67,10 +67,6 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
   7.3 [Snapshot 3](https://ckkho.grafana.net/dashboard/snapshot/7HJkEh23Q0vXpgehsCodx8dO5A2uOuwz)<br>
   7.4 [Snapshot 4](https://ckkho.grafana.net/dashboard/snapshot/MJLatq8b6VjM6mpQrrfXaMzlCeKnpwAO)<br>
   7.5 [Snapshot 5](https://ckkho.grafana.net/dashboard/snapshot/J2P3zmHi2imNWCMFCKv9EN7Gmfn6MqTq)<br>
-
-##[2 objective](#salah)
-
-## salah
 
 ## 8) Additional opportunities
 This pipeline can be extended to more base currencies and longer lookback in historical data, in order to report on more trends around more currencies. Advanced analytics opportunities include training the production dataset on linear regression to build a predictive model on currency fluctuations, or even feeding into large language models (LLMs) to relate the data to world events for more context over the fluctuations.
