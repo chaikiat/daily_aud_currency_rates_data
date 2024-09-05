@@ -2,7 +2,7 @@
 This is a data pipeline built in Amazon Web Services (AWS) that fetches the daily Australian currency exchange rates from a currency exchange API, transforms the data into a format that is finally visualized onto a Grafana dashboard. 
 
 ## Content
-#[Objective](#objective)
+# [Objective](#objective)
 
 ## 1) Objective
 Instead of checking exchange rates online, this pipeline enables the fully automated flow of Australian currency exchange data into a dashboard that enables easier monitoring, alerting of currency fluctuations to better inform decisions over when to execute foreign exchange transactions.   
