@@ -69,7 +69,9 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
   7.5 [Snapshot 5](https://ckkho.grafana.net/dashboard/snapshot/J2P3zmHi2imNWCMFCKv9EN7Gmfn6MqTq)<br>
 
 ##[2 objective](#salah)
-##salah
+
+## salah
+
 ## 8) Additional opportunities
 This pipeline can be extended to more base currencies and longer lookback in historical data, in order to report on more trends around more currencies. Advanced analytics opportunities include training the production dataset on linear regression to build a predictive model on currency fluctuations, or even feeding into large language models (LLMs) to relate the data to world events for more context over the fluctuations.
 
