@@ -2,7 +2,7 @@
 This is a data pipeline built in Amazon Web Services (AWS) that fetches the daily Australian currency exchange rates from a currency exchange API, transforms the data into a format that is finally visualized onto a Grafana dashboard. 
 
 ## Content
-<BR>**[1) Objective](#1-objective)**
+[Objective](#objective)
 
 ## 1) Objective
 Instead of checking exchange rates online, this pipeline enables the fully automated flow of Australian currency exchange data into a dashboard that enables easier monitoring, alerting of currency fluctuations to better inform decisions over when to execute foreign exchange transactions.   
@@ -61,14 +61,15 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
 ## 6) Grafana dashboard
 <img width="1458" alt="grafana_dashboard_aud_daily_conversion" src="https://github.com/user-attachments/assets/f32bbf4e-568c-44af-8bd2-7651c6bee3bf">
 
-## 7) Grafana - Dashboard Snapshots
-  9.1 [Snapshot 1](https://ckkho.grafana.net/dashboard/snapshot/I4w7BspDGLuMKis7j8lvs237yKntieAv)
-  9.2 [Snapshot 2](https://ckkho.grafana.net/dashboard/snapshot/GgKE7R1bV7N6uBQVvxnc6eDGOci2WTtZ)
-  9.3 [Snapshot 3](https://ckkho.grafana.net/dashboard/snapshot/7HJkEh23Q0vXpgehsCodx8dO5A2uOuwz)
-  9.4 [Snapshot 4](https://ckkho.grafana.net/dashboard/snapshot/MJLatq8b6VjM6mpQrrfXaMzlCeKnpwAO)
-  9.5 [Snapshot 5](https://ckkho.grafana.net/dashboard/snapshot/J2P3zmHi2imNWCMFCKv9EN7Gmfn6MqTq)
+## 7) Grafana - dashboard snapshots
+  7.1 [Snapshot 1](https://ckkho.grafana.net/dashboard/snapshot/I4w7BspDGLuMKis7j8lvs237yKntieAv)<br>
+  7.2 [Snapshot 2](https://ckkho.grafana.net/dashboard/snapshot/GgKE7R1bV7N6uBQVvxnc6eDGOci2WTtZ)<br>
+  7.3 [Snapshot 3](https://ckkho.grafana.net/dashboard/snapshot/7HJkEh23Q0vXpgehsCodx8dO5A2uOuwz)<br>
+  7.4 [Snapshot 4](https://ckkho.grafana.net/dashboard/snapshot/MJLatq8b6VjM6mpQrrfXaMzlCeKnpwAO)<br>
+  7.5 [Snapshot 5](https://ckkho.grafana.net/dashboard/snapshot/J2P3zmHi2imNWCMFCKv9EN7Gmfn6MqTq)<br>
 
-<a id="1-objective"></a>
+[1 objective](#1-objective)
+[2 objective](#objective)
 ## 8) Additional opportunities
 This pipeline can be extended to more base currencies and longer lookback in historical data, in order to report on more trends around more currencies. Advanced analytics opportunities include training the production dataset on linear regression to build a predictive model on currency fluctuations, or even feeding into large language models (LLMs) to relate the data to world events for more context over the fluctuations.
 
