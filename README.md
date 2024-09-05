@@ -84,6 +84,6 @@ This pipeline can be extended to more base currencies and longer lookback in his
       b. AWS Glue workflows: https://docs.aws.amazon.com/glue/latest/dg/workflows_overview.html
       c. Grafana dashboard: https://grafana.com/docs/grafana/latest/dashboards/
 
-______a. [Free currency api](https://freecurrencyapi.com/docs)
+&nbsp;a. [Free currency api](https://freecurrencyapi.com/docs)
 
 ***
