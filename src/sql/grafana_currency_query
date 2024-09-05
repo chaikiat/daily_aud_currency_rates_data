@@ -1,0 +1,34 @@
+SELECT
+  CAST(day_date AS DATE) AS "date"
+  ,bgn
+,brl
+,cad
+,chf
+,cny
+,czk
+,dkk
+,eur
+,gbp
+,hkd
+,hrk
+,ils
+,inr
+,isk
+,jpy
+,mxn
+,myr
+,nok
+,nzd
+,php
+,pln
+,ron
+,rub
+,sek
+,sgd
+,thb
+,try
+,usd
+,zar
+FROM <the production table name in Athena>
+WHERE $__timeFilter(CAST(day_date AS DATE)) 
+ORDER BY 1 
