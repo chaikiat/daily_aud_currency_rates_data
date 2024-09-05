@@ -2,8 +2,8 @@
 This is a data pipeline built in Amazon Web Services (AWS) that fetches the daily Australian currency exchange rates from a currency exchange API, transforms the data into a format that is finally visualized onto a Grafana dashboard. 
 
 ## Content
-### [8) Additional opportunities](#8-additional-opportunities)
-### [9) Documentation](#9-documentation)
+#### [8) Additional opportunities](#8-additional-opportunities)
+#### [9) Documentation](#9-documentation)
 
 ## 1) Objective
 Instead of checking exchange rates online, this pipeline enables the fully automated flow of Australian currency exchange data into a dashboard that enables easier monitoring, alerting of currency fluctuations to better inform decisions over when to execute foreign exchange transactions.   
@@ -69,10 +69,10 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
   7.4 [Snapshot 4](https://ckkho.grafana.net/dashboard/snapshot/MJLatq8b6VjM6mpQrrfXaMzlCeKnpwAO)<br>
   7.5 [Snapshot 5](https://ckkho.grafana.net/dashboard/snapshot/J2P3zmHi2imNWCMFCKv9EN7Gmfn6MqTq)<br>
 
-## [8) Additional opportunities](#additional-opportunities)
+## [8) Additional opportunities](#8-additional-opportunities)
 This pipeline can be extended to more base currencies and longer lookback in historical data, in order to report on more trends around more currencies. Advanced analytics opportunities include training the production dataset on linear regression to build a predictive model on currency fluctuations, or even feeding into large language models (LLMs) to relate the data to world events for more context over the fluctuations.
 
-## 9) Documentation(#documentation)
+## [9) Documentation](#9-documentation)
       a. Free currency api: https://freecurrencyapi.com/docs
       b. AWS Glue workflows: https://docs.aws.amazon.com/glue/latest/dg/workflows_overview.html
       c. Grafana dashboard: https://grafana.com/docs/grafana/latest/dashboards/
