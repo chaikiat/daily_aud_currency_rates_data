@@ -80,7 +80,7 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
 This pipeline can be extended to more base currencies and longer lookback in historical data, in order to report on more trends around more currencies. Advanced analytics opportunities include training the production dataset on linear regression to build a predictive model on currency fluctuations, or even feeding into large language models (LLMs) to relate the data to world events for more context over the fluctuations.
 
 ## [9) Documentation](#9-documentation)
-      a. [Free currency api](https://freecurrencyapi.com/docs)
+      a. `[Free currency api]``(https://freecurrencyapi.com/docs)`
       b. AWS Glue workflows: https://docs.aws.amazon.com/glue/latest/dg/workflows_overview.html
       c. Grafana dashboard: https://grafana.com/docs/grafana/latest/dashboards/
 
