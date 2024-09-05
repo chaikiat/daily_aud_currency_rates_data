@@ -8,7 +8,7 @@ This is a data pipeline built in Amazon Web Services (AWS) that fetches the dail
 <br>[4) Data source](#4-data-source)
 <br>[5) Implementation steps](#5-implementation-steps)
 <br>[6) Grafana dashboard](#6-grafana-dashboard)
-<br>[7) Grafana - dashboard snapshots](#7-grafana-dashboard-snapshots)
+<br>[7) Grafana dashboard snapshots](#7-grafana-dashboard-snapshots)
 <br>[8) Additional opportunities](#8-additional-opportunities)
 <br>[9) Documentation](#9-documentation)
 
