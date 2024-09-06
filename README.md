@@ -27,8 +27,8 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
 ![de_project_currency_ck drawio](https://github.com/user-attachments/assets/57dc3050-4dba-4602-8257-4bd356cf68f4)
 
 ## [4) Data Source](#4-data-source)
-      a. Data provider: https://freecurrencyapi.com
-      b. Authentication to the API is via an API key, which can be generated when you sign up for free
+   a. Data provider: [Free Currency API](https://freecurrencyapi.com)
+   b. Authentication to the API is via an API key, which can be generated when you sign up for free 
 
 ## [5) Implementation Steps](#5-implementation-steps)
       1. In AWS, go to Lambda and create a Python function - Python runtime, x86_64 architecture
