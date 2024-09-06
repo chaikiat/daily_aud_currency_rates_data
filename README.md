@@ -46,7 +46,7 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
       13. Create a job each for the glue job files in the repository - [src/glue_jobs]
           a. `delete_parquet_currency_table_s3_athena.py`: drops the table in S3, in order to create a new table with every run of the ETL job
           b. `create_parquet_currency_table_glue_job.py`: references the raw API data table (#6 above) and creates a new partitioned table
-          c. `dq_checks_parquet_currency_table.py`: Runs some data quality checks on the new table, to validate for any unintended data in the                table
+          c. `dq_checks_parquet_currency_table.py`: Runs a series of data quality checks on the new table, to validate for any unintended data                in the table
           d. `publish_prod_parquet_currency_table.py`: Publishes the final table in a production database in Amazon Athena, where downstream applications like Grafana can access
       14. In AWS Glue, create a workflow to orchestrate this data pipeline:
           a. Start the pipeline every day or on-demand (to trigger the pipeline manually)
@@ -67,14 +67,17 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
       23. Create your customised visualisations to build your dashboard
 
 ## [6) Grafana dashboard](#6-grafana-dashboard)
-<img width="1458" alt="grafana_dashboard_aud_daily_conversion" src="https://github.com/user-attachments/assets/f32bbf4e-568c-44af-8bd2-7651c6bee3bf">
+<img width="1464" alt="grafana_dashboard_aud_daily_conversion" src="https://github.com/user-attachments/assets/7481f06b-8538-46fd-a5a1-2617e32a55d6">
 
 ## [7) Grafana dashboard snapshots](#7-grafana-dashboard-snapshots)
-  7.1 [Snapshot 1](https://ckkho.grafana.net/dashboard/snapshot/I4w7BspDGLuMKis7j8lvs237yKntieAv)<br>
-  7.2 [Snapshot 2](https://ckkho.grafana.net/dashboard/snapshot/GgKE7R1bV7N6uBQVvxnc6eDGOci2WTtZ)<br>
-  7.3 [Snapshot 3](https://ckkho.grafana.net/dashboard/snapshot/7HJkEh23Q0vXpgehsCodx8dO5A2uOuwz)<br>
-  7.4 [Snapshot 4](https://ckkho.grafana.net/dashboard/snapshot/MJLatq8b6VjM6mpQrrfXaMzlCeKnpwAO)<br>
-  7.5 [Snapshot 5](https://ckkho.grafana.net/dashboard/snapshot/J2P3zmHi2imNWCMFCKv9EN7Gmfn6MqTq)<br>
+  7.1 [Snapshot 1: Scorecards - Australian Currency - Daily Exchange Rates - Grafana - Dashboards](https://ckkho.grafana.net/dashboard/snapshot/oPy2IbVXeI96t4ad84TgcplsXY1rr8sV)<br>
+  7.2 [Snapshot 2: Daily trend - AUD to MYR Currency - Daily Exchange Rates - Grafana - Dashboards](https://ckkho.grafana.net/dashboard/snapshot/2wmMEzp9kepDx8eFA9fYtXlAcEFX8Web)<br>
+  7.3 [Snapshot 3: Daily trend - AUD to USD Currency - Daily Exchange Rates - Grafana - Dashboards
+](https://ckkho.grafana.net/dashboard/snapshot/EQo5RRdH28v6cEAx1rKT6ZTf10mA2EjA)<br>
+  7.4 [Snapshot 4: Daily trend - AUD to SGD Currency - Daily Exchange Rates - Grafana - Dashboards
+](https://ckkho.grafana.net/dashboard/snapshot/xtGmRt7pXwiBNgkFVoFQPE3265MTxKCP)<br>
+  7.5 [Snapshot 5: Daily trend - AUD to all currencies - Daily Exchange Rates - Grafana - Dashboards
+](https://ckkho.grafana.net/dashboard/snapshot/8EYJyjoH4rM8yonEHgECpAywlNmedv2L)<br>
 
 ## [8) Additional opportunities](#8-additional-opportunities)
 This pipeline can be extended to more base currencies and longer lookback in historical data, in order to report on more trends around more currencies. Advanced analytics opportunities include training the production dataset on linear regression to build a predictive model on currency fluctuations, or even feeding into large language models (LLMs) to relate the data to world events for more context over the fluctuations.
