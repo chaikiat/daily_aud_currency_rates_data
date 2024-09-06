@@ -70,13 +70,13 @@ Instead of checking exchange rates online, this pipeline enables the fully autom
 <img width="1464" alt="grafana_dashboard_aud_daily_conversion" src="https://github.com/user-attachments/assets/7481f06b-8538-46fd-a5a1-2617e32a55d6">
 
 ## [7) Grafana dashboard snapshots](#7-grafana-dashboard-snapshots)
-  7.1 [Snapshot 1: Scorecards - Australian Currency - Daily Exchange Rates - Grafana - Dashboards](https://ckkho.grafana.net/dashboard/snapshot/oPy2IbVXeI96t4ad84TgcplsXY1rr8sV)<br>
-  7.2 [Snapshot 2: Daily trend - AUD to MYR Currency - Daily Exchange Rates - Grafana - Dashboards](https://ckkho.grafana.net/dashboard/snapshot/2wmMEzp9kepDx8eFA9fYtXlAcEFX8Web)<br>
-  7.3 [Snapshot 3: Daily trend - AUD to USD Currency - Daily Exchange Rates - Grafana - Dashboards
+a. [Snapshot 1: Scorecards - Australian Currency - Daily Exchange Rates - Grafana - Dashboards](https://ckkho.grafana.net/dashboard/snapshot/oPy2IbVXeI96t4ad84TgcplsXY1rr8sV)<br>
+b. [Snapshot 2: Daily trend - AUD to MYR Currency - Daily Exchange Rates - Grafana - Dashboards](https://ckkho.grafana.net/dashboard/snapshot/2wmMEzp9kepDx8eFA9fYtXlAcEFX8Web)<br>
+c. [Snapshot 3: Daily trend - AUD to USD Currency - Daily Exchange Rates - Grafana - Dashboards
 ](https://ckkho.grafana.net/dashboard/snapshot/EQo5RRdH28v6cEAx1rKT6ZTf10mA2EjA)<br>
-  7.4 [Snapshot 4: Daily trend - AUD to SGD Currency - Daily Exchange Rates - Grafana - Dashboards
+d. [Snapshot 4: Daily trend - AUD to SGD Currency - Daily Exchange Rates - Grafana - Dashboards
 ](https://ckkho.grafana.net/dashboard/snapshot/xtGmRt7pXwiBNgkFVoFQPE3265MTxKCP)<br>
-  7.5 [Snapshot 5: Daily trend - AUD to all currencies - Daily Exchange Rates - Grafana - Dashboards
+e. [Snapshot 5: Daily trend - AUD to all currencies - Daily Exchange Rates - Grafana - Dashboards
 ](https://ckkho.grafana.net/dashboard/snapshot/8EYJyjoH4rM8yonEHgECpAywlNmedv2L)<br>
 
 ## [8) Additional opportunities](#8-additional-opportunities)
